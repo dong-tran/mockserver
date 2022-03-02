@@ -1,21 +1,31 @@
 [
   {
-    "httpRequest" : {
-      "method" : "POST",
-      "path" : "/overseas/openplatform/api/updatePriceStock",
+    "httpRequest": {
+      "method": "POST",
+      "path": "/overseas/openplatform/api/updatePriceStock"
     },
-    "httpResponse" : {
-      "body" : "{\"code\":200,\"msg\":\"推送成功!\",\"data\":null,\"success\":true}",
+    "httpResponse": {
+      "body": "{\"code\":200,\"msg\":\"推送成功!\",\"data\":null,\"success\":true}",
       "statusCode": 200
     }
   },
   {
-    "httpRequest" : {
-      "method" : "POST",
-      "path" : "/overseas/openplatform/api/otaOrder/sysncOrderStatus",
+    "httpRequest": {
+      "method": "POST",
+      "path": "/overseas/openplatform/api/otaOrder/sysncOrderStatus"
     },
-    "httpResponse" : {
-      "body" : "{\"code\":200,\"msg\":\"推送成功!\",\"data\":null,\"isSuccess\":true}",
+    "httpResponse": {
+      "body": "{\"code\":200,\"msg\":\"推送成功!\",\"data\":null,\"isSuccess\":true}",
+      "statusCode": 200
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "POST",
+      "path": "/overseas/openplatform/api/queryStockPriceLog"
+    },
+    "httpResponse": {
+      "body": "{\"code\":200,\"msg\":\"推送成功!\",\"data\":{},\"success\":true}",
       "statusCode": 200
     }
   }
